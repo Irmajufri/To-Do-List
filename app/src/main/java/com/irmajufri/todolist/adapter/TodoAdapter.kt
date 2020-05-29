@@ -6,7 +6,10 @@ import android.view.ViewGroup
 import android.widget.Filter
 import android.widget.Filterable
 import androidx.recyclerview.widget.RecyclerView
+import com.irmajufri.todolist.R
+import com.irmajufri.todolist.activity.MainActivity
 import com.irmajufri.todolist.model.Todo
+import com.irmajufri.todolist.util.Commons
 import kotlinx.android.synthetic.main.item_empty.view.*
 import kotlinx.android.synthetic.main.item_row_todo.view.*
 import java.text.SimpleDateFormat

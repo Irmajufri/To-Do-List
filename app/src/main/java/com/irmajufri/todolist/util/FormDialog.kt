@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
 import android.view.Window
+import com.irmajufri.todolist.R
 import kotlinx.android.synthetic.main.dialog_form.*
 
 class FormDialog(context: Context, private val title: String, private val formLayout: View, private val saveAction: () -> Unit): Dialog(context){
