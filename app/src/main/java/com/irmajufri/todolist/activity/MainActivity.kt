@@ -1,4 +1,4 @@
-package com.irmajufri.todolist
+package com.irmajufri.todolist.activity
 
 import android.app.AlertDialog
 import android.app.SearchManager
@@ -14,7 +14,12 @@ import androidx.appcompat.widget.SearchView
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-
+import com.irmajufri.todolist.R
+import com.irmajufri.todolist.adapter.TodoAdapter
+import com.irmajufri.todolist.model.Todo
+import com.irmajufri.todolist.viewmodel.TodoViewModel
+import com.zulkiflilothian.todolist.util.Commons
+import com.zulkiflilothian.todolist.util.FormDialog
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment_todo.view.*
 
