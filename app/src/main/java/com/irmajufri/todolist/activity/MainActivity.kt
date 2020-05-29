@@ -17,9 +17,10 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.irmajufri.todolist.R
 import com.irmajufri.todolist.adapter.TodoAdapter
 import com.irmajufri.todolist.model.Todo
+import com.irmajufri.todolist.util.Commons
+import com.irmajufri.todolist.util.CustomConfirmDialog
+import com.irmajufri.todolist.util.FormDialog
 import com.irmajufri.todolist.viewmodel.TodoViewModel
-import com.zulkiflilothian.todolist.util.Commons
-import com.zulkiflilothian.todolist.util.FormDialog
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment_todo.view.*
 

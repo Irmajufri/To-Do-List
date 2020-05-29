@@ -2,6 +2,7 @@ package com.irmajufri.todolist.database
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
+import com.irmajufri.todolist.model.Todo
 
 @Dao
 interface TodoDao {

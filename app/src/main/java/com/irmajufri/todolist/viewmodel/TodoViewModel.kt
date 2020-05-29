@@ -4,6 +4,7 @@ import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import com.irmajufri.todolist.database.TodoRepository
+import com.irmajufri.todolist.model.Todo
 
 
 class TodoViewModel(application: Application): AndroidViewModel(application) {
